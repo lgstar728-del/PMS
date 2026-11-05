@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@theme {
+  --color-navy: #14213D;
+  --color-navy-700: #1d2f57;
+  --color-gold: #C9A227;
+  --color-gold-100: #f6edc8;
+  --color-mist: #F5F7FA;
+  --font-sans: "Pretendard", "Noto Sans KR", "Segoe UI", system-ui, sans-serif;
+}
+html, body { background: #F5F7FA; color: #14213D; font-family: var(--font-sans); }
+* { scrollbar-width: thin; }
+@keyframes tourpulse { 0%,100% { box-shadow: 0 0 0 0 rgba(201,162,39,.85);} 50% { box-shadow: 0 0 0 7px rgba(201,162,39,0);} }
+.opera5 { font-family: Tahoma, "Malgun Gothic", sans-serif; font-size: 12px; }
+.opera5 .o-btn { border-radius: 0; border: 2px outset #f3f3f3; background: #e4e4e4; }
+.opera5 .o-input { border-radius: 0; border: 2px inset #ddd; }
+@media print { .no-print { display: none !important; } body { background: #fff; } }
